@@ -28,6 +28,10 @@ body {
   color: var(--dark-cyan);
 }
 
+button {
+  cursor: pointer;
+}
+
 h1,
 h2 {
   font-family: "Poppins", sans-serif;
@@ -72,7 +76,7 @@ nav {
 
 nav img {
   height: 25px;
-  width: 130px;
+  width: 150px;
 }
 
 nav button {
@@ -169,11 +173,14 @@ nav button {
 }
 
 /* ======================================================= */
-/* =================== GROW TOGETHER ===================== */
+/* ====================== MAIN =========================== */
 /* ======================================================= */
+main {
+  position: relative;
+}
 
 .card-wrapper {
-  padding: 5rem 0;
+  padding: 5rem 0 15rem;
 }
 
 .card {
@@ -221,7 +228,47 @@ nav button {
 /* ==================================================== */
 /* ==================================================== */
 
+.community {
+  position: absolute;
+  background-color: var(--white);
+  box-shadow: 1px 1px 5px 1px var(--box-shadow);
+  -webkit-box-shadow: 1px 1px 5px 1px var(--box-shadow);
+  -moz-box-shadow: 1px 1px 5px 1px var(--box-shadow);
+  left: 18px;
+  right: 18px;
+  bottom: -100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 3rem 1rem;
+  border-radius: 20px;
+}
+
+.community h2 {
+  font-size: 1.1rem;
+}
+
+.community button {
+  height: 50px;
+  width: 250px;
+  background-color: var(--pink);
+  border: none;
+  outline: none;
+  margin-top: 1.5rem;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .community {
+    width: 70%;
+  }
+}
+
 /* =================================================== */
+/* ================== FOOTER ======================== */
 /* ================================================== */
 
 footer {
@@ -232,6 +279,7 @@ footer {
 
 footer address {
   font-style: normal;
+  margin-bottom: 3rem;
 }
 
 address p {
@@ -252,5 +300,68 @@ span {
   height: 40px;
   width: 250px;
   margin: 1.5rem 0;
+}
+
+.footer-links {
+  margin-bottom: 3rem;
+}
+
+.footer-links li {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.social-links {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.social {
+  border: 1px solid var(--pale-cyan);
+  border-radius: 100%;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-wrapper {
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-start; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer-wrapper_contact img {
+    margin: 0 0 1.5rem;
+  }
+
+  .contact {
+    width: 35%;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    width: 30%;
+  }
+
+  .social-links {
+    margin: 0;
+    width: 20%;
+    text-align: right;
+  }
+
+  .copyright {
+    text-align: right;
+  }
 }
 
