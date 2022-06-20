@@ -16,7 +16,12 @@ Your users should be able to:
 
 
 
-## Project Demo
+## Project Link
 
-- [GitHub Pages](https://godwinopara.github.io/huddle.github.io/)
+- [Live Site Url](https://godwinopara.github.io/huddle.github.io/)
+
+## Author
+
+- Website - [godwinopara](https://www.godwinopara.tech)
+- Twitter - [@godwinopara12](https://www.twitter.com/godwinopara12)
 
