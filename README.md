@@ -18,5 +18,5 @@ Your users should be able to:
 
 ## Project Demo
 
-- [GitHub Pages](https://pages.github.com/)
+- [GitHub Pages](https://godwinopara.github.io/huddle.github.io/)
 
